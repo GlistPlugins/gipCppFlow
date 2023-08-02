@@ -19,8 +19,9 @@ list(APPEND PLUGIN_SRCS
 list(APPEND PLUGIN_INCLUDES
 			${PLUGIN_DIR}/src
 			${PLUGIN_LIBS_DIR}/include
+			${PLUGIN_LIBS_DIR}/include/cppflow
+			${PLUGIN_LIBS_DIR}/include/tensorflow
 )
-
 
 ##### PLUGIN DEPENDENCY LOCATIONS (IF ANY) #####
 if(WIN32)
